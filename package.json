@@ -15,6 +15,7 @@
 		"react-router-dom": "6.1.1",
 		"react-scripts": "4.0.3",
 		"web-vitals": "^1.0.1",
+		"yarn": "^1.22.17",
 		"zustand": "^3.6.7"
 	},
 	"scripts": {
