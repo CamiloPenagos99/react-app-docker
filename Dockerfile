@@ -1,4 +1,5 @@
 FROM node:16-alpine
+ENV NODE_ENV testing
 WORKDIR /app
 COPY package.json yarn.lock ./
 RUN yarn install --frozen-lockfile
