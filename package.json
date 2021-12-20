@@ -20,6 +20,7 @@
 	},
 	"scripts": {
 		"start": "env-cmd -f ./enviroments/.env.dev react-scripts start",
+		"start:dev": "env-cmd -f ./enviroments/.env.dev react-scripts start",
 		"start:local": "env-cmd -f ./enviroments/.env.local react-scripts start",
 		"start:testing": "env-cmd -f ./enviroments/.env.test react-scripts start",
 		"build": "env-cmd -f ./enviroments/.env.dev react-scripts build",
